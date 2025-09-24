@@ -6,12 +6,12 @@ if __name__ == "__main__":
 
     train_results = model.train(
         data="C:/Users/Tito/Desktop/Master/TFM/development/datasets/trafic_data/data_1.yaml",  # YAML del dataset
-        epochs=100,                # puedes ajustar
+        epochs=100,                
         batch=16,
-        device="0",                # "0" = primera GPU, "cpu" si no tienes GPU
+        device="0",                
         project="yolo_training",
         name="vehicle_model",
-        exist_ok=True              # sobrescribe si ya existe
+        exist_ok=True              
     )
 
     # Evaluate model performance on the validation set
