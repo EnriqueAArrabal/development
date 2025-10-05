@@ -14,7 +14,7 @@ model = AutoModelForZeroShotObjectDetection.from_pretrained(model_id).to(device)
 image_path = "./datasets/trafic_data/train/images/41_jpg.rf.cccfea1ad9ef5ff8ad3b5468c36b2709.jpg"
 image = Image.open(image_path)
 
-# Etiquetas (puedes usar tus clases de tráfico)
+# Etiquetas
 text_labels = [["ambulance", "army vehicle", "auto rickshaw", "bicycle", "bus",
                 "car", "garbage van", "human hauler", "minibus", "minivan",
                 "motorbike", "pickup truck", "police car", "rickshaw", "scooter",
