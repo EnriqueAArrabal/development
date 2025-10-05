@@ -7,7 +7,7 @@ from tqdm import tqdm
 # Rutas
 IMG_DIR = "C:/Users/Tito/Desktop/Master/TFM/development/COCO/images/val2017"
 ANN_FILE = "C:/Users/Tito/Desktop/Master/TFM/development/COCO/annotations/instances_val2017.json"
-MODEL_PATH = "yolo11n.pt"  # Cambia según el modelo que uses
+MODEL_PATH = "yolo11n.pt"
 
 # Cargar modelo
 model = YOLO(MODEL_PATH)

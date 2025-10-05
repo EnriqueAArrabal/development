@@ -30,7 +30,7 @@ img_ids = coco.getImgIds()
 
 categories = coco.loadCats(coco.getCatIds())
 class_name_to_id = {cat["name"].lower(): cat["id"] for cat in categories}
-text_labels = [cat["name"] for cat in categories]  # lista plana
+text_labels = [cat["name"] for cat in categories]
 
 # -----------------------------
 # Generar predicciones
